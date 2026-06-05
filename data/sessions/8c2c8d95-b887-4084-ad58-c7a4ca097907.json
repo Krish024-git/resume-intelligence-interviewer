@@ -1,0 +1,284 @@
+{
+    "session_id": "8c2c8d95-b887-4084-ad58-c7a4ca097907",
+    "role": "PDF Resume Interview",
+    "experience": "N/A",
+    "questions": [
+        {
+            "id": 1,
+            "question": "What are the key differences between a list and a tuple in Python, and when would you choose one over the other?"
+        },
+        {
+            "id": 2,
+            "question": "How would you write an SQL query to find the top 5 customers by total sales from a sales table that includes customer_id and sales_amount?"
+        },
+        {
+            "id": 3,
+            "question": "Can you explain the difference between supervised and unsupervised learning in machine learning?"
+        },
+        {
+            "id": 4,
+            "question": "What is a convolutional neural network (CNN) and for what types of problems is it best suited?"
+        },
+        {
+            "id": 5,
+            "question": "What are some best practices for effective data visualization, and why are they important?"
+        },
+        {
+            "id": 6,
+            "question": "How do you handle missing data when performing statistical analysis, and what techniques can be used?"
+        },
+        {
+            "id": 7,
+            "question": "What is the purpose of the DOCTYPE declaration in HTML?"
+        },
+        {
+            "id": 8,
+            "question": "Explain the CSS box model and how it affects the layout of a webpage."
+        },
+        {
+            "id": 9,
+            "question": "What are closures in JavaScript, and how do they work?"
+        },
+        {
+            "id": 10,
+            "question": "What are the benefits of using React.js for building user interfaces compared to plain JavaScript?"
+        },
+        {
+            "id": 11,
+            "question": "How does FastAPI handle asynchronous requests, and why is this beneficial for API development?"
+        },
+        {
+            "id": 12,
+            "question": "How can you combine multiple DataFrames in pandas, and what are the differences between merge() and concat()?"
+        },
+        {
+            "id": 13,
+            "question": "What are some common operations you can perform with NumPy to manipulate large datasets?"
+        },
+        {
+            "id": 14,
+            "question": "How do you choose the right machine learning algorithm for a given problem using Scikit-learn?"
+        },
+        {
+            "id": 15,
+            "question": "What are the key components of a TensorFlow model, and how do you build and train one?"
+        },
+        {
+            "id": 16,
+            "question": "What methods can be used for data cleaning, and why is it a critical step in data analysis?"
+        },
+        {
+            "id": 17,
+            "question": "Can you describe the process of data preprocessing and its importance before applying machine learning models?"
+        },
+        {
+            "id": 18,
+            "question": "What is exploratory data analysis (EDA), and what techniques do you use to perform it?"
+        },
+        {
+            "id": 19,
+            "question": "What are some common methods for time series forecasting, and how do they differ in approach?"
+        },
+        {
+            "id": 20,
+            "question": "How do you evaluate the performance of a predictive model, and what metrics would you use?"
+        },
+        {
+            "id": 21,
+            "question": "What are the main functions of a database management system (DBMS), and how do they benefit data storage and retrieval?"
+        }
+    ],
+    "answers": [
+        {
+            "question_id": 1,
+            "answer": "nnn"
+        },
+        {
+            "question_id": 2,
+            "answer": "nnn"
+        },
+        {
+            "question_id": 3,
+            "answer": "nnn"
+        },
+        {
+            "question_id": 4,
+            "answer": "nnn"
+        },
+        {
+            "question_id": 5,
+            "answer": "nnn"
+        },
+        {
+            "question_id": 6,
+            "answer": "nn"
+        },
+        {
+            "question_id": 7,
+            "answer": "nnnn"
+        },
+        {
+            "question_id": 8,
+            "answer": "nnnnn"
+        },
+        {
+            "question_id": 9,
+            "answer": "nnnnnnn"
+        },
+        {
+            "question_id": 10,
+            "answer": "nnn"
+        },
+        {
+            "question_id": 11,
+            "answer": "nn"
+        },
+        {
+            "question_id": 12,
+            "answer": "nnn"
+        },
+        {
+            "question_id": 13,
+            "answer": "pytho"
+        },
+        {
+            "question_id": 14,
+            "answer": "nnn"
+        },
+        {
+            "question_id": 15,
+            "answer": "nnnnnnnnn"
+        },
+        {
+            "question_id": 16,
+            "answer": "nnnnn"
+        },
+        {
+            "question_id": 17,
+            "answer": "nnnn"
+        },
+        {
+            "question_id": 18,
+            "answer": "nnn"
+        },
+        {
+            "question_id": 19,
+            "answer": "nnn"
+        },
+        {
+            "question_id": 20,
+            "answer": "nnn"
+        },
+        {
+            "question_id": 21,
+            "answer": "juuu\\"
+        }
+    ],
+    "evaluations": [
+        {
+            "question_id": 1,
+            "score": 0,
+            "feedback": "The candidate did not provide a valid answer to the question as their response is not intelligible. Clear explanations of the differences between a list and a tuple, along with use cases, are necessary for a complete answer."
+        },
+        {
+            "question_id": 2,
+            "score": 0,
+            "feedback": "The candidate did not provide a valid SQL query. They need to demonstrate the ability to write a complete and correct SQL statement for the given problem."
+        },
+        {
+            "question_id": 3,
+            "score": 0,
+            "feedback": "The answer is not provided and is not relevant to the question. The candidate needs to explain the key differences between supervised and unsupervised learning clearly."
+        },
+        {
+            "question_id": 4,
+            "score": 0,
+            "feedback": "The answer does not provide any relevant information about convolutional neural networks. It lacks explanation of CNNs and their applications, which are critical for a proper response."
+        },
+        {
+            "question_id": 5,
+            "score": 0,
+            "feedback": "The candidate's answer is not provided, making it impossible to evaluate their understanding of data visualization best practices. A clear response is essential to assess their knowledge in this area."
+        },
+        {
+            "question_id": 6,
+            "score": 0,
+            "feedback": "The response is empty and does not provide any information regarding handling missing data in statistical analysis. A valid answer should include specific techniques and examples."
+        },
+        {
+            "question_id": 7,
+            "score": 0,
+            "feedback": "The answer does not address the question and merely contains unexpected characters. A valid response would explain that the DOCTYPE declaration informs the web browser about the version of HTML being used."
+        },
+        {
+            "question_id": 8,
+            "score": 0,
+            "feedback": "The answer does not provide any meaningful content about the CSS box model. It is incomplete and does not demonstrate any understanding of the topic."
+        },
+        {
+            "question_id": 9,
+            "score": 0,
+            "feedback": "The answer provided is not valid and does not address the question about closures in JavaScript. A clear explanation of closures and their functionality is expected for a complete response."
+        },
+        {
+            "question_id": 10,
+            "score": 2,
+            "feedback": "The answer is incomplete and lacks content. A detailed explanation of React.js benefits over plain JavaScript is necessary to demonstrate understanding."
+        },
+        {
+            "question_id": 11,
+            "score": 0,
+            "feedback": "The candidate's answer is incomplete and does not address the question. A proper explanation of FastAPI's asynchronous handling and its benefits is missing."
+        },
+        {
+            "question_id": 12,
+            "score": 0,
+            "feedback": "The answer provided is not valid and does not address the question. The candidate failed to explain how to combine DataFrames or the differences between merge() and concat()."
+        },
+        {
+            "question_id": 13,
+            "score": 1,
+            "feedback": "The answer provided is not relevant to the question. Please elaborate on NumPy operations such as array creation, indexing, slicing, and mathematical functions."
+        },
+        {
+            "question_id": 14,
+            "score": 0,
+            "feedback": "The answer provided is not valid as it does not contain any relevant information regarding the selection of machine learning algorithms in Scikit-learn. A proper response should discuss factors such as data characteristics, the type of problem (classification, regression), and performance metrics."
+        },
+        {
+            "question_id": 15,
+            "score": 0,
+            "feedback": "The response does not provide any relevant information or components related to a TensorFlow model. A detailed explanation is necessary to properly evaluate the candidate's knowledge."
+        },
+        {
+            "question_id": 16,
+            "score": 0,
+            "feedback": "The response lacks any relevant content regarding data cleaning methods or its importance in data analysis. A detailed answer is necessary to demonstrate understanding."
+        },
+        {
+            "question_id": 17,
+            "score": 0,
+            "feedback": "The answer provided is nonsensical and does not address the question at all. A candidate should clearly explain the key steps of data preprocessing and its significance in machine learning."
+        },
+        {
+            "question_id": 18,
+            "score": 0,
+            "feedback": "The response is invalid as it contains only 'nnn' and does not address the question. A thorough explanation of EDA and relevant techniques is necessary for evaluation."
+        },
+        {
+            "question_id": 19,
+            "score": 0,
+            "feedback": "The response is incomplete and does not provide any information or methods related to time series forecasting. A more thorough answer discussing methods like ARIMA, Exponential Smoothing, and machine learning approaches would be expected."
+        },
+        {
+            "question_id": 20,
+            "score": 0,
+            "feedback": "The answer provided is not valid or relevant, as it contains only 'nnn' and lacks any explanation or metrics related to model evaluation. A thorough discussion on metrics such as accuracy, precision, recall, F1-score, or ROC-AUC is necessary for a complete answer."
+        },
+        {
+            "question_id": 21,
+            "score": 0,
+            "feedback": "The answer provided does not address the question and is incomplete. A valid response should outline key functions of a DBMS, such as data storage, retrieval, security, and backup, along with their benefits."
+        }
+    ]
+}

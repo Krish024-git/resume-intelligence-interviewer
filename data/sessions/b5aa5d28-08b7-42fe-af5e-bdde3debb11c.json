@@ -1,0 +1,24 @@
+{
+    "session_id": "b5aa5d28-08b7-42fe-af5e-bdde3debb11c",
+    "role": "python developer",
+    "experience": "0",
+    "questions": [
+        {
+            "id": 1,
+            "question": "What are the differences between lists and tuples in Python?"
+        }
+    ],
+    "answers": [
+        {
+            "question_id": 1,
+            "answer": "Lists are mutable and can be modified after creation, while tuples are immutable. Lists use square brackets and tuples use parentheses. Tuples are generally faster and can be used as dictionary keys."
+        }
+    ],
+    "evaluations": [
+        {
+            "question_id": 1,
+            "score": 8,
+            "feedback": "The candidate correctly identified the mutability difference and the syntax for lists and tuples. They also mentioned the performance aspect and the ability of tuples to be used as dictionary keys, which shows a good understanding of the topic."
+        }
+    ]
+}

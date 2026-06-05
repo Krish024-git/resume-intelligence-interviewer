@@ -1,0 +1,37 @@
+{
+    "session_id": "c41d28f4-01a4-4121-b6f6-5a2995c00b57",
+    "role": "Python Developer",
+    "experience": "0",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Can you describe a project or a task where you used Python, and what challenges did you face during that experience?"
+        },
+        {
+            "id": 2,
+            "question": "How do you approach learning new programming concepts or technologies in Python, especially as a beginner?"
+        }
+    ],
+    "answers": [
+        {
+            "question_id": 1,
+            "answer": "no"
+        },
+        {
+            "question_id": 2,
+            "answer": "i have no answer"
+        }
+    ],
+    "evaluations": [
+        {
+            "question_id": 1,
+            "score": 0,
+            "feedback": "The response does not provide any information about a project or task involving Python. It is crucial to elaborate on experiences and challenges to demonstrate relevant skills."
+        },
+        {
+            "question_id": 2,
+            "score": 0,
+            "feedback": "The response indicates a lack of engagement with the question. It is crucial to demonstrate a willingness and method for learning, especially as a beginner."
+        }
+    ]
+}

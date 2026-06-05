@@ -1,0 +1,76 @@
+{
+    "session_id": "4faa2f15-f2e9-4c5d-a792-db91469ffb2e",
+    "role": "Resume Based Interview",
+    "experience": "N/A",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Can you explain the differences between REST and GraphQL, and provide use cases where one might be preferred over the other?"
+        },
+        {
+            "id": 2,
+            "question": "How do you approach debugging a performance bottleneck in a web application?"
+        },
+        {
+            "id": 3,
+            "question": "What are the main advantages of using microservices architecture, and what challenges have you encountered while implementing it?"
+        },
+        {
+            "id": 4,
+            "question": "Describe how you would implement a caching mechanism to optimize API response times."
+        },
+        {
+            "id": 5,
+            "question": "Can you walk us through the process of setting up continuous integration and continuous deployment (CI/CD) for a software project?"
+        }
+    ],
+    "answers": [
+        {
+            "question_id": 1,
+            "answer": "nn"
+        },
+        {
+            "question_id": 2,
+            "answer": "nn"
+        },
+        {
+            "question_id": 3,
+            "answer": "nnn"
+        },
+        {
+            "question_id": 4,
+            "answer": "nnn"
+        },
+        {
+            "question_id": 5,
+            "answer": "nnn"
+        }
+    ],
+    "evaluations": [
+        {
+            "question_id": 1,
+            "score": 2,
+            "feedback": "The answer did not provide any content; thus, it lacks the necessary details to evaluate the differences between REST and GraphQL. A comprehensive explanation and relevant use cases are required for a higher score."
+        },
+        {
+            "question_id": 2,
+            "score": 0,
+            "feedback": "The response lacks any content, making it impossible to evaluate their approach to debugging performance bottlenecks. A more detailed answer outlining specific techniques and tools would be necessary to gauge their understanding."
+        },
+        {
+            "question_id": 3,
+            "score": 0,
+            "feedback": "The answer provided is not valid as it contains only 'nnn' with no relevant information. There are no advantages or challenges mentioned regarding microservices architecture."
+        },
+        {
+            "question_id": 4,
+            "score": 0,
+            "feedback": "The answer provided is not sufficient as it does not contain any information about the caching mechanism implementation. A detailed explanation of cache types, strategies, or technologies would be needed for a better evaluation."
+        },
+        {
+            "question_id": 5,
+            "score": 0,
+            "feedback": "The answer provided is incomplete and does not address the question. The candidate needs to provide a clear step-by-step explanation of the CI/CD setup process."
+        }
+    ]
+}

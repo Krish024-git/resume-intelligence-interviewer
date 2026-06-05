@@ -1,0 +1,24 @@
+{
+    "session_id": "31b1e6c4-37f4-46da-847f-f56af2d49b55",
+    "role": "Test Role",
+    "experience": "0",
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is Python?"
+        }
+    ],
+    "answers": [
+        {
+            "question_id": 1,
+            "answer": "python is language which can perfome task and with help of pyhton to create a ai "
+        }
+    ],
+    "evaluations": [
+        {
+            "question_id": 1,
+            "score": 2,
+            "feedback": "The answer lacks clarity and contains multiple spelling and grammatical errors. It does not accurately describe Python as a programming language or its capabilities."
+        }
+    ]
+}

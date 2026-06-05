@@ -1,0 +1,76 @@
+{
+    "session_id": "c92396ea-dfdf-4048-a1da-b9d4353da153",
+    "role": "fullstack",
+    "experience": "0",
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the difference between front-end and back-end development?"
+        },
+        {
+            "id": 2,
+            "question": "Can you explain what an API is and how it is used in web development?"
+        },
+        {
+            "id": 3,
+            "question": "What is HTML and what role does it play in building a website?"
+        },
+        {
+            "id": 4,
+            "question": "What is CSS and how does it enhance the appearance of a web application?"
+        },
+        {
+            "id": 5,
+            "question": "What programming languages are commonly used for fullstack development?"
+        }
+    ],
+    "answers": [
+        {
+            "question_id": 1,
+            "answer": "fornt end is a body and design but backend is a nervous system like human"
+        },
+        {
+            "question_id": 2,
+            "answer": "api is a key somulate our program "
+        },
+        {
+            "question_id": 3,
+            "answer": "hypertext markup laguge this is give structure our project"
+        },
+        {
+            "question_id": 4,
+            "answer": "case casading style sheet "
+        },
+        {
+            "question_id": 5,
+            "answer": " HTML, Javascript and css "
+        }
+    ],
+    "evaluations": [
+        {
+            "question_id": 1,
+            "score": 2,
+            "feedback": "The analogy used is overly simplistic and lacks clarity. A more accurate comparison should include specific technologies and functions associated with front-end and back-end development."
+        },
+        {
+            "question_id": 2,
+            "score": 2,
+            "feedback": "The answer is unclear and contains significant errors in terminology, such as 'somulate' which does not convey the correct meaning. A proper explanation of API as an interface allowing different software applications to communicate would be necessary for a higher score."
+        },
+        {
+            "question_id": 3,
+            "score": 2,
+            "feedback": "The candidate has a major spelling error in 'laguge' and lacks clarity in their explanation. Additionally, the answer does not adequately describe the role of HTML in web development."
+        },
+        {
+            "question_id": 4,
+            "score": 2,
+            "feedback": "The candidate misspelled 'cascading style sheets' and did not provide a comprehensive explanation of how CSS enhances the appearance of web applications. A better answer would include details about styling, layout control, and improved user experience."
+        },
+        {
+            "question_id": 5,
+            "score": 3,
+            "feedback": "The candidate mentioned front-end technologies but omitted important back-end languages such as Node.js, Python, Ruby, or Java. A more comprehensive answer would cover both front-end and back-end technologies used in fullstack development."
+        }
+    ]
+}

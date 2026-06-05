@@ -1,0 +1,211 @@
+{
+    "session_id": "9ce951b3-1b61-4dfd-8970-d9e5f1674bd9",
+    "role": "PDF Resume Interview",
+    "experience": "N/A",
+    "questions": [
+        {
+            "id": 1,
+            "question": "What are the differences between Python lists and tuples, and when would you choose one over the other?"
+        },
+        {
+            "id": 2,
+            "question": "How would you write a SQL query to find the top 5 customers by total sales in a sales database?"
+        },
+        {
+            "id": 3,
+            "question": "Can you explain the difference between supervised and unsupervised learning in machine learning?"
+        },
+        {
+            "id": 4,
+            "question": "What is a convolutional neural network (CNN) and what types of problems is it best suited for in deep learning?"
+        },
+        {
+            "id": 5,
+            "question": "What are the key elements of a good data visualization, and how do you choose the right type of chart for your data?"
+        },
+        {
+            "id": 6,
+            "question": "How do you handle missing data when performing statistical analysis?"
+        },
+        {
+            "id": 7,
+            "question": "How do you structure an HTML document to ensure it is both semantically correct and accessible?"
+        },
+        {
+            "id": 8,
+            "question": "What are CSS Flexbox and Grid, and when would you use one over the other?"
+        },
+        {
+            "id": 9,
+            "question": "Explain the difference between var, let, and const in JavaScript."
+        },
+        {
+            "id": 10,
+            "question": "What are some key features of FastAPI, and how does it compare to Flask for building APIs?"
+        },
+        {
+            "id": 11,
+            "question": "How do you use Pandas to merge two dataframes on a key column, and what are some potential issues you might encounter?"
+        },
+        {
+            "id": 12,
+            "question": "What are the main differences between NumPy arrays and Python lists?"
+        },
+        {
+            "id": 13,
+            "question": "How can you use Scikit-learn to grid search for the best hyperparameters for a model?"
+        },
+        {
+            "id": 14,
+            "question": "Can you explain the purpose of TensorFlow's Keras API and how it's used to build neural networks?"
+        },
+        {
+            "id": 15,
+            "question": "What is data cleaning and why is it essential in data analysis?"
+        },
+        {
+            "id": 16,
+            "question": "What steps would you take in a data preprocessing pipeline before fitting a machine learning model?"
+        },
+        {
+            "id": 17,
+            "question": "What is exploratory data analysis (EDA) and what techniques would you use to conduct EDA on a dataset?"
+        },
+        {
+            "id": 18,
+            "question": "How would you approach forecasting a time series dataset with seasonal trends?"
+        },
+        {
+            "id": 19,
+            "question": "What is the difference between classification and regression in predictive modeling?"
+        },
+        {
+            "id": 20,
+            "question": "What are the key components of effective database management in a relational database system?"
+        }
+    ],
+    "answers": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "",
+        "12": "",
+        "13": "",
+        "14": "",
+        "15": "",
+        "16": "",
+        "17": "",
+        "18": "",
+        "19": "",
+        "20": ""
+    },
+    "evaluations": [
+        {
+            "question_id": 1,
+            "score": 8,
+            "feedback": "The candidate accurately identified the key differences, including mutability and performance considerations. However, a more detailed explanation of specific use cases would enhance the response."
+        },
+        {
+            "question_id": 2,
+            "score": 8,
+            "feedback": "The answer demonstrates a solid understanding of SQL query structures but lacks the actual SQL code. Providing a query example would have strengthened the response significantly."
+        },
+        {
+            "question_id": 3,
+            "score": 8,
+            "feedback": "The candidate clearly outlined the key differences between supervised and unsupervised learning, highlighting the use of labeled data in supervised learning. However, additional examples could have strengthened the explanation."
+        },
+        {
+            "question_id": 4,
+            "score": 8,
+            "feedback": "The candidate provided a clear definition of convolutional neural networks and mentioned their suitability for image recognition and similar problems. However, they could improve by including more specific examples or applications of CNNs in deep learning."
+        },
+        {
+            "question_id": 5,
+            "score": 8,
+            "feedback": "The candidate identified key elements such as clarity, accuracy, and relevance, demonstrating a solid understanding. However, providing specific examples of chart types for different data types would enhance their answer."
+        },
+        {
+            "question_id": 6,
+            "score": 7,
+            "feedback": "The candidate mentioned methods like imputation and deletion but lacked specific examples or context. Providing more detail on the advantages and disadvantages of each method would enhance their answer."
+        },
+        {
+            "question_id": 7,
+            "score": 7,
+            "feedback": "The candidate demonstrated a good understanding of semantic HTML elements and accessibility best practices, such as using headings, lists, and ARIA roles. However, they could have elaborated more on the importance of a proper document structure and the inclusion of attributes like alt text for images."
+        },
+        {
+            "question_id": 8,
+            "score": 7,
+            "feedback": "The candidate correctly identifies that Flexbox is used for one-dimensional layouts and Grid for two-dimensional layouts, which shows a good understanding of their purposes. However, the answer lacks specific scenarios or examples of when to use one over the other."
+        },
+        {
+            "question_id": 9,
+            "score": 8,
+            "feedback": "The candidate correctly identified the key differences, such as scoping rules and mutability. However, a more detailed explanation or examples could have improved the completeness of the answer."
+        },
+        {
+            "question_id": 10,
+            "score": 8,
+            "feedback": "The candidate adequately highlights key features of FastAPI such as performance, automatic documentation, and type validation. A comparison with Flask was mentioned but could be more detailed regarding differences in asynchronous capabilities and ease of use."
+        },
+        {
+            "question_id": 11,
+            "score": 8,
+            "feedback": "The candidate correctly identified the use of the `merge` function in Pandas to join two dataframes on a key column. However, they missed mentioning specific potential issues such as handling duplicate keys or the need for selecting the appropriate join type."
+        },
+        {
+            "question_id": 12,
+            "score": 8,
+            "feedback": "The candidate correctly noted that NumPy arrays are more efficient for numerical computations and support multi-dimensional data structures, while Python lists are more flexible and can hold heterogeneous data types. However, the answer could be improved by including additional details on performance and functionality differences, such as broadcasting and built-in mathematical functions."
+        },
+        {
+            "question_id": 13,
+            "score": 8,
+            "feedback": "The candidate provided a good overview of using Scikit-learn's GridSearchCV for hyperparameter tuning. However, details on parameter specification and cross-validation procedure were lacking."
+        },
+        {
+            "question_id": 14,
+            "score": 8,
+            "feedback": "The candidate demonstrated a solid understanding of Keras as a high-level API for building neural networks in TensorFlow, highlighting its ease of use and flexibility. However, they could improve by providing specific examples of model creation and compiling in Keras."
+        },
+        {
+            "question_id": 15,
+            "score": 8,
+            "feedback": "The candidate provided a clear definition of data cleaning and its importance in ensuring accuracy and reliability in data analysis. However, additional examples of common techniques or consequences of neglecting data cleaning would have strengthened the answer."
+        },
+        {
+            "question_id": 16,
+            "score": 8,
+            "feedback": "The candidate provided a comprehensive overview of key preprocessing steps, including data cleaning, normalization, and feature selection. However, they could have included more details on handling categorical variables or splitting the dataset into training and testing sets."
+        },
+        {
+            "question_id": 17,
+            "score": 7,
+            "feedback": "The candidate provided a reasonable definition of EDA, discussing the importance of summarizing main characteristics and discovering patterns. However, the response lacked specific techniques and examples that could enhance their answer."
+        },
+        {
+            "question_id": 18,
+            "score": 7,
+            "feedback": "The candidate demonstrated a solid understanding of time series analysis, mentioning the importance of identifying seasonal patterns. However, they could improve by discussing specific methods or models they would use for forecasting, such as ARIMA or seasonal decomposition."
+        },
+        {
+            "question_id": 19,
+            "score": 8,
+            "feedback": "The candidate accurately described that classification predicts discrete categories, while regression predicts continuous values. However, they could enhance their answer by giving specific examples for clarity."
+        },
+        {
+            "question_id": 20,
+            "score": 7,
+            "feedback": "The candidate has covered important aspects of database management, such as normalization, indexing, and backup procedures. However, they could have elaborated on security measures and performance tuning for a more comprehensive answer."
+        }
+    ]
+}

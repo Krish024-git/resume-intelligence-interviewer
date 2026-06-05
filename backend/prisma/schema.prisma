@@ -1,0 +1,146 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  name      String
+  avatarUrl String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  resumes   Resume[]
+  sessions  InterviewSession[]
+  reports   Report[]
+
+  @@map("users")
+}
+
+model Resume {
+  id            String   @id @default(uuid())
+  userId        String
+  fileName      String
+  filePath      String
+  fileUrl       String?
+  extractedText String   @db.Text
+  skills        String[]
+  createdAt     DateTime @default(now())
+
+  user     User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  sessions InterviewSession[]
+
+  @@map("resumes")
+}
+
+model InterviewSession {
+  id            String          @id @default(uuid())
+  userId        String
+  resumeId      String?
+  role          String
+  experience    String
+  type          InterviewType
+  difficulty    Difficulty
+  questionCount Int
+  status        SessionStatus   @default(PENDING)
+  averageScore  Float?
+  createdAt     DateTime        @default(now())
+  completedAt   DateTime?
+
+  user         User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  resume       Resume?       @relation(fields: [resumeId], references: [id])
+  questions    Question[]
+  answers      Answer[]
+  evaluations  Evaluation[]
+  reports      Report[]
+
+  @@map("interview_sessions")
+}
+
+model Question {
+  id         String           @id @default(uuid())
+  sessionId  String
+  text       String           @db.Text
+  type       InterviewType
+  difficulty Difficulty
+  order      Int
+  isFollowup Boolean          @default(false)
+  createdAt  DateTime         @default(now())
+
+  session     InterviewSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  answers     Answer[]
+  evaluations Evaluation[]
+
+  @@map("questions")
+}
+
+model Answer {
+  id             String   @id @default(uuid())
+  sessionId      String
+  questionId     String
+  text           String   @db.Text
+  characterCount Int
+  submittedAt    DateTime @default(now())
+
+  session  InterviewSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  question Question         @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@map("answers")
+}
+
+model Evaluation {
+  id              String   @id @default(uuid())
+  sessionId       String
+  questionId      String
+  score           Float
+  feedback        String   @db.Text
+  strengths       String[]
+  weaknesses      String[]
+  recommendations String[]
+  createdAt       DateTime @default(now())
+
+  session  InterviewSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  question Question         @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@map("evaluations")
+}
+
+model Report {
+  id        String   @id @default(uuid())
+  sessionId String
+  userId    String
+  filePath  String
+  shareToken String? @unique
+  createdAt DateTime @default(now())
+
+  session InterviewSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  user    User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("reports")
+}
+
+enum InterviewType {
+  technical
+  hr
+  resume
+  mixed
+}
+
+enum Difficulty {
+  easy
+  medium
+  hard
+}
+
+enum SessionStatus {
+  PENDING
+  IN_PROGRESS
+  COMPLETED
+  CANCELLED
+}

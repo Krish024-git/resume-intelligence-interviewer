@@ -1,0 +1,61 @@
+{
+    "session_id": "f246ad15-d4d2-4f1d-8bb3-bbf83c9a2163",
+    "role": "PDF Resume Interview",
+    "experience": "N/A",
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is the primary purpose of the Pandas library in Python?"
+        },
+        {
+            "id": 2,
+            "question": "Can you explain what a SQL JOIN is and give an example of when it might be used?"
+        },
+        {
+            "id": 3,
+            "question": "What is the difference between supervised and unsupervised learning in machine learning?"
+        },
+        {
+            "id": 4,
+            "question": "How do you create a simple line plot using Matplotlib in Python?"
+        },
+        {
+            "id": 5,
+            "question": "What are CSS selectors and how do they work?"
+        }
+    ],
+    "answers": {
+        "1": "na\n",
+        "2": "nn",
+        "3": "nnn",
+        "4": "nnn",
+        "5": "nn"
+    },
+    "evaluations": [
+        {
+            "question_id": 1,
+            "score": 1,
+            "feedback": "The response is incorrect and uninformative. The primary purpose of the Pandas library is to provide data manipulation and analysis tools, particularly for structured data."
+        },
+        {
+            "question_id": 2,
+            "score": 0,
+            "feedback": "The candidate's answer is empty and does not provide any explanation or example of a SQL JOIN. It is necessary to demonstrate knowledge of JOINs to evaluate this concept properly."
+        },
+        {
+            "question_id": 3,
+            "score": 0,
+            "feedback": "The candidate's response is not valid as it does not provide any information regarding the question about supervised and unsupervised learning. A more informative answer is needed to assess their understanding."
+        },
+        {
+            "question_id": 4,
+            "score": 0,
+            "feedback": "The answer provided is not relevant to the question asked. No demonstration of knowledge regarding Matplotlib or the creation of a line plot was given."
+        },
+        {
+            "question_id": 5,
+            "score": 1,
+            "feedback": "The candidate provided no relevant information regarding CSS selectors. A substantial explanation was expected but not delivered."
+        }
+    ]
+}
