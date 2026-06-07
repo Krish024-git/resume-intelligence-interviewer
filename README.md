@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# AI Interview Simulator
 
 AI Interview Simulator is a multi-interface interview preparation platform with AI-driven question generation, resume-based workflow, answer evaluation, history tracking, analytics, and PDF report generation.
@@ -139,3 +140,82 @@ pytest
 - The frontend is built with Next.js, Tailwind CSS, and Zustand.
 - The backend API is a Node.js Express server using Prisma.
 - The Python AI bridge service exposes AI endpoints consumed by the backend.
+=======
+# resume-intelligence-interviewer
+# 🤖 AI Interview Simulator
+
+AI-powered interview preparation platform built with Python, Streamlit, and OpenRouter.
+
+## 🚀 Features
+
+* 📄 Resume PDF Upload
+* 🧠 Skill Extraction
+* 🎯 Difficulty-Based Interviews (Easy, Medium, Hard)
+* 🤖 AI Question Generation
+* 🔄 AI Follow-Up Questions
+* 📝 Answer Evaluation
+* 📊 Analytics Dashboard
+* 📈 Score Trend Analysis
+* 💡 AI Career Suggestions
+* 📂 Interview History Tracking
+* 📄 PDF Report Generation
+* 🌐 Interactive Streamlit Web App
+
+## 🛠 Tech Stack
+
+* Python
+* Streamlit
+* OpenRouter API
+* Pandas
+* PyPDF2
+* ReportLab
+* JSON Storage
+
+## 📷 Screenshots
+
+Add screenshots of:
+
+* Resume Upload
+* Interview Questions
+* Analytics Dashboard
+* Career Suggestions
+* PDF Report
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/yourusername/AI-Interview-Simulator.git
+
+cd AI-Interview-Simulator
+
+pip install -r requirements.txt
+
+streamlit run streamlit_app.py
+```
+
+## 🎯 Project Workflow
+
+Resume Upload
+→ Skill Extraction
+→ AI Question Generation
+→ Interview
+→ Evaluation
+→ Follow-Up Questions
+→ Career Suggestions
+→ Analytics
+→ PDF Report
+
+## 📌 Future Enhancements
+
+* Voice Interviews
+* User Authentication
+* Database Integration
+* Coding Interview Mode
+* Company-Specific Interviews
+
+## 👨‍💻 Author
+
+Krish Verma
+
+MCA | Data Science Enthusiast | AI Developer
+>>>>>>> f5ec3252f82971139bcae81562cc0b1438c042d3
